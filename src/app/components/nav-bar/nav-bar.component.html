@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg">
+  <!-- position-absolute w-100 -->
+  <div class="container-fluid container-lg">
+    <a class="navbar-brand z-5" routerLink="/home">
+      <img class="" style="width: 80px; height: 60px;" src="../../../assets/images/LOGO-09.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav fw-bold fs-4 z-5 w-100 justify-content-evenly ps-3 ps-lg-0" style="font-size: 1.2rem !important;">
+        <li class="nav-item">
+          <a class="nav-link text-black" aria-current="page" routerLink="/home">{{'navBar.home' | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/aboutUs">{{'navBar.aboutUs' |translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/services">{{'navBar.ourServices' |translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/ourWork">{{'navBar.ourWork' |translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/ourClients">{{'navBar.ourClients' |translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/ourPartners">{{'navBar.ourPartners' |translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" routerLink="/contactUs">{{'navBar.contactUs' |translate}}</a>
+        </li>
+      </ul>
+      <span class="z-5">
+        <select class="form-control border-0 fw-semibold fs-4 text-black text-center" #selectedLang
+          (change)="switchLang(selectedLang.value)">
+          <option *ngFor="let language of translate.getLangs()" [value]="language"
+            [selected]="language === translate.currentLang">
+            {{ language }}
+          </option>
+        </select>
+      </span>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,22 @@
+<section class="pt-5">
+  <div class="col-12 my-4 d-flex justify-content-center text-white text-center">
+    <h1 class="z-5 w-75">{{'ourServicesTitle' | translate}}</h1>
+  </div>
+  <div *ngFor="let item of types">
+    <div class="container">
+      <div class="row">
+        <!-- <h1 class="col-12 my-4 justify-content-center d-flex text-white z-5">The standard types of tires</h1> -->
+        <div class="col-12 d-flex align-items-center p-3 my-3 z-5 text-white" [ngClass]="{'flex-row-reverse': item.dir == 'end'}">
+          <div class=" w-50 text-center">
+            <img class="w-50" src="{{item.imgUrl}}" alt="">
+          </div>
+          <div class="w-50">
+            <h2>{{item.title}}</h2>
+            <!-- <h4 class="w-100 bg-black bg-opacity-25">{{item.text}}</h4> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</section>

@@ -1,15 +1,13 @@
-import { Component } from '@angular/core';
+import { Component , HostListener} from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-nav-bar',
+  templateUrl: './nav-bar.component.html',
+  styleUrls: ['./nav-bar.component.scss']
 })
-export class AppComponent {
-  title = 'sandStone-code';
+export class NavBarComponent {
   constructor(public translate:TranslateService) {
-    translate.addLangs(['en' , 'ar']);
     translate.setDefaultLang('en');
     translate.use('en')
   }

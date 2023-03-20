@@ -1,0 +1,64 @@
+<section class="w-100 pt-5 min-vh-100">
+  <div class="container">
+    <div class="row">
+      <!-- <h1 class="p-2 text-center rounded-3 z-5 bg-white bg-opacity-75">Order Now !!</h1> -->
+      <div class="col-sm-12 col-lg-6 z-5 bg-white p-5">
+        <h1 class="mb-4 fw-semibold">{{'contactUs.title' | translate}}</h1>
+
+        <div class="col-12">
+          <form class="">
+            <!-- [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)" -->
+            <input class="mb-4 w-100 border-0 border-bottom p-2 rounded-3" type="text" required="required"
+              placeholder="{{'contactUs.name' | translate}}" formControlName="name" name="name"
+              data-error="full_name is required." />
+            <!-- [(ngModel)]="FormData.name" -->
+
+            <input class="mb-4 w-100 border-0 border-bottom p-2 rounded-3" type="email" required="required"
+              placeholder="{{'contactUs.email' | translate}}" formControlName="email" name="email"
+              data-error="Email is required." />
+
+            <input class="mb-4 w-100 border-0 border-bottom p-2 rounded-3" type="number" required="required"
+              placeholder="{{'contactUs.phone' | translate}}" formControlName="phone" name="phone"
+              data-error="PhoneNum is required" />
+
+            <input class="mb-3 w-100 border-0 border-bottom p-2 rounded-3" type="text" required="required"
+              placeholder="{{'contactUs.company' | translate}}" formControlName="name" name="name"
+              data-error="company_name is required." />
+
+            <div class=" mb-3 d-flex flex-column">
+              <label class="fw-semibold" for="quantity">{{'contactUs.quantity' | translate}}</label>
+              <select class="p-2 px-3" id="quantity" name="quantity">
+                <option value="male">0 - 1000</option>
+                <option value="male">1000 - 10,000</option>
+                <option value="female">10,000 +</option>
+              </select>
+            </div>
+
+            <textarea class="w-100 mb-2F p-0 py-2 border-0 border-bottom text-black rounded-3" name="text"
+              formControlName="text" placeholder="Write your notes" rows="6">
+        </textarea>
+
+            <button class="w-50 btn text-white bg-black">
+              <!--  [ngClass]="!FormData.valid?'invalidBtn':'sendBtn'" -->
+              {{'contactUs.sendBtn' | translate}}
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- ------------------get in touch-------------- -->
+      <div class="col-sm-12 col-lg-6 z-5 bg-white p-5">
+        <h4 class="mb-5 text-center">{{'contactUs.title2' | translate}}</h4>
+        <h5 class="mb-3 ps-4 mt-5 fs-4 fw-semibold">{{'contactUs.email' | translate}}:</h5>
+        <h5 class="mb-3 ps-4 fs-4 fw-semibold">{{'contactUs.media' | translate}}:</h5>
+
+      <div class="media ps-4 mt-4 d-flex flex-column">
+        <a class="fs-5 link-dark text-decoration-none">Twitter</a>
+        <a class="fs-5 link-dark text-decoration-none">Instagram</a>
+        <a class="fs-5 link-dark text-decoration-none">Youtube</a>
+        <a class="fs-5 link-dark text-decoration-none">Facebook</a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</section>

@@ -1,0 +1,44 @@
+<section class="mt-0" #home>
+  <div class="mb-0">
+    <app-slider-holder></app-slider-holder>
+  </div>
+  <div class="main text-white mt-0">
+    <!-- <div *ngFor="let item of textArr"> -->
+    <div class="container">
+      <div class="row py-5">
+        <!-- <div class="col-12 p-3 z-5 d-flex" [ngClass]="{'justify-content-end': item.dir == 'end'}">
+           <h2>{{item.title}}</h2>
+          <h4 class="w-50 text-center fs-4">{{item.text}}</h4>
+        </div> -->
+        <h1 style="font-size: 5rem;" class="text-center mb-5 z-5 fw-semibold">{{'home.title' | translate}}</h1>
+        <div class="col-12 p-3 z-5 d-flex flex-column mb-5">
+          <h4 class="w-75 m-auto text-center pb-5 fs-4">{{'home.ourWord1' | translate}}</h4>
+          <h4 class="w-75 m-auto text-center fs-4">{{'home.ourWord2' | translate}}</h4>
+        </div>
+        <div class="col-12 p-3 z-5 d-flex justify-content-end my-5">
+          <h4 class="w-50 text-center fs-4">{{'home.workRules' | translate}}</h4>
+        </div>
+        <div class="col-12 p-3 z-5 d-flex">
+          <h4 class="w-50 text-center fs-4">{{'home.workTeam' | translate}}</h4>
+        </div>
+        <div class="col-12 p-3 z-5 my-5">
+          <h4 class="w-75 m-auto text-center fs-2">{{'home.tools' | translate}}</h4>
+        </div>
+        <div class="col-12 p-3 z-5 d-flex justify-content-end my-5">
+          <h4 class="w-75 text-center fs-4">{{'home.dearClients' | translate}}</h4>
+        </div>
+      </div>
+      <div class="col-12 p-3 z-5 d-flex flex-column mb-5">
+        <h2 class="w-100 z-5 m-auto text-center pb-5 fs-1">{{'ourGoals.title' | translate}}</h2>
+        <h4 class="w-75 pb-4 z-5 m-auto text-center">{{'ourGoals.item1' | translate}}</h4>
+        <h4 class="w-75 pb-4 z-5 m-auto text-center">{{'ourGoals.item2' | translate}}</h4>
+        <h4 class="w-75 pb-4 z-5 m-auto text-center">{{'ourGoals.item3' | translate}}</h4>
+        <h4 class="w-75 pb-4 z-5 m-auto text-center">{{'ourGoals.item4' | translate}}</h4>
+        <h4 class="w-75 pb-4 z-5 m-auto text-center">{{'ourGoals.item5' | translate}}</h4>
+        <h4 class="w-75 z-5 m-auto text-center fs-4">{{'ourGoals.item6' | translate}}</h4>
+      </div>
+    </div>
+    <!-- </div> -->
+  </div>
+  <app-footer></app-footer>
+</section>
