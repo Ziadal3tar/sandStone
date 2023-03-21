@@ -6,7 +6,7 @@
         <h1 class="mb-4 fw-semibold">{{'contactUs.title' | translate}}</h1>
 
         <div class="col-12">
-          <form class="">
+          <form class="" [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)">
             <!-- [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)" -->
             <input class="mb-4 w-100 border-0 border-bottom p-2 rounded-3" type="text" required="required"
               placeholder="{{'contactUs.name' | translate}}" formControlName="name" name="name"
@@ -22,7 +22,7 @@
               data-error="PhoneNum is required" />
 
             <input class="mb-3 w-100 border-0 border-bottom p-2 rounded-3" type="text" required="required"
-              placeholder="{{'contactUs.company' | translate}}" formControlName="name" name="name"
+              placeholder="{{'contactUs.company' | translate}}" formControlName="companyName" name="name"
               data-error="company_name is required." />
 
             <div class=" mb-3 d-flex flex-column">
@@ -35,10 +35,10 @@
             </div>
 
             <textarea class="w-100 mb-2F p-0 py-2 border-0 border-bottom text-black rounded-3" name="text"
-              formControlName="text" placeholder="Write your notes" rows="6">
-        </textarea>
+              formControlName="notes" placeholder="Write your notes" rows="6">
+            </textarea>
 
-            <button class="w-50 btn text-white bg-black">
+            <button class="w-50 btn text-white bg-black" type="submit">
               <!--  [ngClass]="!FormData.valid?'invalidBtn':'sendBtn'" -->
               {{'contactUs.sendBtn' | translate}}
             </button>
@@ -51,12 +51,12 @@
         <h5 class="mb-3 ps-4 mt-5 fs-4 fw-semibold">{{'contactUs.email' | translate}}:</h5>
         <h5 class="mb-3 ps-4 fs-4 fw-semibold">{{'contactUs.media' | translate}}:</h5>
 
-      <div class="media ps-4 mt-4 d-flex flex-column">
-        <a class="fs-5 link-dark text-decoration-none">Twitter</a>
-        <a class="fs-5 link-dark text-decoration-none">Instagram</a>
-        <a class="fs-5 link-dark text-decoration-none">Youtube</a>
-        <a class="fs-5 link-dark text-decoration-none">Facebook</a>
-      </div>
+        <div class="media ps-4 mt-4 d-flex flex-column">
+          <a class="fs-5 link-dark text-decoration-none">Twitter</a>
+          <a class="fs-5 link-dark text-decoration-none">Instagram</a>
+          <a class="fs-5 link-dark text-decoration-none">Youtube</a>
+          <a class="fs-5 link-dark text-decoration-none">Facebook</a>
+        </div>
       </div>
     </div>
   </div>
