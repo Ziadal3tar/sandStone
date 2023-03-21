@@ -1,3 +1,4 @@
+import { SendemailService } from './../../services/sendemail.service';
 import { AuthService } from './../../../../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
@@ -17,19 +18,14 @@ export class ContactUsComponent implements OnInit {
     quantity: new FormControl(null , [Validators.required]),
     notes: new FormControl(null , []),
   })
-  constructor(private auth: AuthService , private router: Router){}
+  constructor(private auth: AuthService , private router: Router,private SendemailService:SendemailService){}
 
   ngOnInit(): void {
   }
   onSubmit(data: any) {
-    const formData = new FormData();
-    formData.append('name', data.name);
-    formData.append('email', data.email);
-    formData.append('phone', data.phone);
-    formData.append('text', data.text);
 
-    this.auth.sendEmail(formData).subscribe((Data: any) => {
-      console.log(Data);
+    this.SendemailService.sendEmail(this.formData.value).subscribe((Data: any) => {
+    
       if (Data.message == 'sended') {
         this.router.navigate(['/home'])
       }
