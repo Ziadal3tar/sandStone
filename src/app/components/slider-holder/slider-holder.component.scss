@@ -1,0 +1,29 @@
+.bgImg {
+  background-image: url('../../../assets/images/gallery5.jpg');
+  background-position: center;
+  background-size: 100%;
+  // background-repeat: no-repeat;
+
+  @media screen and (max-width: 600px) {
+    height: 480px !important;
+    background-size: 50%;
+  }
+  @media screen and (min-width: 1300px) {
+    width: 100vw !important;
+  }
+}
+
+.bgImg2 {
+  background-image: url('../../../assets/images/mechanic-changing-tires-car-service.jpg');
+  background-position: center left;
+  background-size: 100%;
+  // background-repeat: no-repeat;
+
+  @media screen and (max-width: 600px) {
+    background-size: 50%;
+    height: 480px !important;
+  }
+  @media screen and (min-width: 1300px) {
+    width: 100vw !important;
+  }
+}

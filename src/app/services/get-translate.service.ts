@@ -7,12 +7,26 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class GetTranslateService {
   // private lang = new BehaviorSubject<any>([]);
-  // currentLang = this.lang.asObservable();
+  // currentLang1 = this.lang.asObservable();
+  currentLang2:any;
 
   constructor(public translate: TranslateService) { }
 
-  getTranslation(str:any) {
-    const currentLang = this.translate.currentLang; // get current language
+  ngOnInit(): void {
+    // this.currentLang.subscribe((data: any) => {
+    //   console.log(data);
+    // })
+    // this.currentLang = 'ar'
+    // console.log(this.currentLang);
+  }
+  getLang(lang:any) {
+    // this.currentLang2 = lang
+    // this.translate.currentLang = lang
+    console.log(lang);
+  }
+  getTranslation(str: any) {
+    let currentLang = this.translate.currentLang; // get current language
+    // let currentLang = this.currentLang2;
     console.log(currentLang);
     const returnValue = this.translate.translations[currentLang][str]; // get converted string from current language
     if (returnValue === undefined) {

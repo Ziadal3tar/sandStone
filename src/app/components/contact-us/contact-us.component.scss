@@ -1,10 +1,11 @@
-section{
+section {
   background-image: url(../../../assets/images/Science_goodyear_163751952.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  &::before{
+
+  &::before {
     content: '';
     position: absolute;
     top: 0;
@@ -13,13 +14,32 @@ section{
     width: 100%;
     background-color: rgba(33, 33, 33, 0.719);
   }
+
   input,
-  textarea{
+  textarea {
     background-color: rgba(230, 230, 230, 0.546);
   }
-  select{
+
+  select {
     outline: #fff !important;
     border: 1px solid #959595;
     width: 80%;
   }
+
+  .bi-twitter:hover{
+    color: #147be9;
+  }
+  .bi-instagram:hover{
+    color:rgb(174, 3, 123) ;
+  }
+  .bi-youtube:hover{
+    color: red;
+  }
+  .bi-facebook:hover{
+    color: blue;
+  }
+
+  // .bi-twitter:hover{
+  //   color: rgb(71, 120, 173);
+  // }
 }

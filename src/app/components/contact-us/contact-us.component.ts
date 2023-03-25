@@ -1,5 +1,5 @@
 import { SendemailService } from './../../services/sendemail.service';
-import { AuthService } from './../../../../services/auth.service';
+import { AuthService } from '../../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -25,7 +25,7 @@ export class ContactUsComponent implements OnInit {
   onSubmit(data: any) {
 
     this.SendemailService.sendEmail(this.formData.value).subscribe((Data: any) => {
-    
+
       if (Data.message == 'sended') {
         this.router.navigate(['/home'])
       }

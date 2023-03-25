@@ -1,0 +1,15 @@
+footer {
+  background-image: url(../../../assets/images/car-tire-covered-with-water.avif);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(43, 41, 41, 0.646);
+}/*# sourceMappingURL=footer.component.css.map */

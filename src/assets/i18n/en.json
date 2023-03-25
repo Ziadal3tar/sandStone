@@ -102,12 +102,13 @@
   "contactUs": {
     "title": " We are glad to hear from you.",
     "title2": "We are pleased to hear from you and we will answer all your inquiries through our technical support team and customer services. Please feel free to contact us through the website and the following social media numbers and platforms: ",
-    "email": "E-mail",
-    "media": "Communication platforms",
+    "email": "E-mail:",
+    "media": "Communication platforms:",
     "name": "write your full name",
     "phone": "phone number",
     "company": "company name",
     "quantity": "please choose the quantity",
+    "notes": "Write your notes",
     "sendBtn": "send your order"
   }
 }

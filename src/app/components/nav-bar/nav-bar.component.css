@@ -1,0 +1,10 @@
+nav {
+  background-color: transparent !important;
+  z-index: 20;
+}
+nav select {
+  background-color: transparent !important;
+}
+nav .mainUl {
+  justify-content: center;
+}/*# sourceMappingURL=nav-bar.component.css.map */

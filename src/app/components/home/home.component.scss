@@ -15,5 +15,10 @@ section{
       width: 100%;
       background-color: rgba(0, 0, 0, 0.719);
     }
+    @media screen and (max-width: 600px) {
+      h4{
+        width: 100% !important;
+      }
+    }
 
 }
