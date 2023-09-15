@@ -1,0 +1,114 @@
+{
+  "navBar": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "ourServices": "Our Services",
+    "whyUs": "Why Us",
+    "ourHighlights": "Our Highlights",
+    "ourWork": "Gallery",
+    "ourClients": "Our Clients",
+    "ourPartners": "Our Partners",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "title": "Trustworthy tires",
+    "ourWord1": "At SANDSTONE Factory, we launched our flagship project from the Kingdom's promising vision. We embodied its strategies in practice through the establishment of a Saudi leading tire manufacturing project consistent with vision 2030 to localize the industry, reduce the import bill, support and prosperity of the national economy, and improve the trade balance contributing to increasing domestic output to achieve the vision. The project is overseen by a team of experts and specialists who have the potential to make a qualitative shift in the industrial sector.",
+    "ourWord2": ". We seek to empower our presence in the industrial sector with international partnerships and understandings with the major companies involved. We strive passionately to be one of the most prominent brands in the region and globally through our early solutions to the convenience of our customers and support efforts to reach a sustainable society. We consciously provide local market requirements from our productions, and our network of relationships with internal and external partners is a source of treasured support.",
+    "workRules": "We believe that the security and safety of vehicle drivers and the preservation of generational heritage from a clean environment is the focus of our attention and seek to achieve it through a manufacturing and recycling approach with accurate approved standards and policies that ensure environmental sustainability, product quality, customer satisfaction and compliance with the laws and legislation governing work.",
+    "workTeam": "We are firmly convinced that success, speed of achievement, and quality of work require the diversity of employees, and their multiple talents, abilities and experiences to produce creative ideas and provide quality services. Therefore, we always strive to create a competitive work environment, attractive to experience, and developmental skills and believe that every member of our team is a valuable member.",
+    "tools": "In Sandstone, we use the best international industries in tire manufacturing, we equipped an integrated production line that can produce a large quantity that meets the need of all equipment and appliances on the target market. ",
+    "dearClients": "We seek to build a network of strategic relationships with reputable companies in the tire industry. An agreement of understanding has been signed with the International Expert Company to transfer their expertise in manufacturing and operating processes, and a technology transfer agreement to keep abreast of the latest technologies in our fields of work. We constantly seek to strengthen our domestic and external partnerships to maximize the company's value and standing."
+  },
+  "aboutUs": {
+    "title": "National industry of international quality",
+    "responsibility": "We seek to be a gear in Saudi Arabia's economic and industrial growth and prosperity.",
+    "ourMissionTitle": "Our Mission And Vision",
+    "ourMission": "Produce the best tires with high quality and global standards that exceed customers' expectations, preserve the environment, and enhance our standing and competitiveness.",
+    "ourVision": "To be the first brand in the tire industry in the Gulf region",
+    "text1": "SANDSTONE TIRES Factory is a Saudi factory licensed by the Ministry of Industry, specializing in manufacturing tires for vehicles of all sizes and uses. The factory was launched from the base of the development of the Saudi economy and the creation of a foothold for the tire industry within the Kingdom. SANDSTONE is the first factory in the Kingdom to cover consumers' needs for tires, increase domestic output, and create jobs that reduce unemployment.",
+    "text2": " Factory management has a promising vision of providing products with global specifications, quality, and competitive prices and the transfer of the best experiences and practices in the tire industry and the signing of a memorandum of understanding with leading global companies in the field; To achieve the required quality level, we have provided a package of modern machines, trained and empowered task forces, and careful professional policies and procedures that respond to the values of work that place the client at the top of its priorities and strive to achieve them. We strive with passion and perseverance to achieve a steady growth rate and secure our place among the leading industrial companies across the Kingdom and the Middle East.",
+    "ourValuables": {
+      "title": "We embark on our professional practices and organizational behavior from entrenched values embraced by each of our team members and seek to establish a reality reflected in the quality of our performance and work.",
+      "item1": "Customer satisfaction: We employ our expertise and physical and human capabilities to provide practical solutions for our customers to maintain a long-term relationship with them.",
+      "item2": "Quality: We strive to achieve the highest quality in our products to preserve the environment, ensure safety for drivers of vehicles, and achieve added value for Saudi industries.",
+      "item3": "Innovation: We live with the idea and deflect it to be a reality and practical application in all our products.",
+      "item4": "Partnership: We believe that the integration of roles is the highest success, so we are keen to conclude partnerships and understandings with related companies to share experiences and benefits.",
+      "item5": "Procession: We strive to keep pace with evolving and modernity to create an attractive environment that enables us to compete and enhance our presence in the top industrial companies worldwide.",
+      "item6": "Responsibility:We seek to be a gear in Saudi Arabia's economic and industrial growth and prosperity."
+    },
+    "qualitySolution": {
+      "title": "Quality Subrogation",
+      "text": "Under the abundance and variety of tires; we had to enjoy the advantages that gave us preference and enhanced our customers' confidence as a reliable provider. In our tire industries, we focused on quality as a value and a competitive advantage. Also, we integrated into our administrative and technical processes and established quality principles in the following aspects:",
+      "item1": "Operating systems.",
+      "item2": "Selection of raw materials.",
+      "item3": "Manufacturing.",
+      "item4": "Customers Relationships.",
+      "item5": "Manufacturing equipment and means.",
+      "item6": "Scientific studies and research in our fields of work."
+    },
+    "tiresAdvantages": {
+      "title": "Features of tires",
+      "item1": "High-quality materials",
+      "item2": "A unique operability performance ",
+      "item3": "An incredible holding power.",
+      "item4": "Adapts to all air and environmental conditions.",
+      "item5": "Comfortable",
+      "item6": "Competitive prices"
+    },
+    "ourMessage": {
+      "title": "Our Message",
+      "text": "To provide a package of high-quality tire varieties, distinctive in sizes and uses that are consistent with the requirements of the Saudi market and meet its needs and add value to the Saudi industry; To contribute to the growth of the national economy and cost savings for consumers, and to localize local industry within the perspective of environmental and economic awareness, security and safety of drivers. "
+    }
+  },
+  "ourGoals": {
+    "title": "Our objectives are based on our responsibility:",
+    "item1": "1- Produce a package of tires with competitive quality that meets the needs of the Saudi market.",
+    "item2": "2- To be the Company brand in the tire industry in the Gulf region.",
+    "item3": "3- Keeping up with evolution and modernity in our fields of work.",
+    "item4": "4- Build on successful global experiences and develop strategic partnerships with them.",
+    "item5": "5- Attention to customers and distributors and maintaining a sustainable relationship with them.",
+    "item6": "6- Create new jobs and contribute to the prosperity of the Saudi economy in pursuit of Vision 2030."
+  },
+  "ourServicesTitle": "We make a unique package of tires with the advantages of compatible raw materials to the nature of use and vehicle type, and our tire products include the following items:",
+  "service1": "Heavy Truck",
+  "service2": "SEDAN Car",
+  "service3": "PICKUP TRUCK",
+  "service4": "VAN",
+  "service5": "Transport buses",
+  "service6": "Agricultural Vehicles",
+  "service7": "SUV vehicles ",
+  "service8": "Terrain vehicles",
+  "service9": "Small Electric vehicles",
+  "service10": "Big Electric vehicles",
+  "service11": "Taxis",
+  "service12": "Other Vehicles",
+  "ourClients": {
+    "title": "We seek to make the first and most reliable choice for all different sectors by providing them with the necessary tires for their business. The sales sectors include:",
+    "text1": "Vehicle manufacturers.",
+    "text2": "Wholesalers",
+    "text3": "Government Sector.",
+    "text4": "Retailers.",
+    "text5": "Gulf market."
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "aboutUsText" : "SANDSTONE TIRES Factory is a Saudi factory licensed by the Ministry of Industry, specializing in manufacturing tires for vehicles of all sizes and uses. The factory was launched from the base of the development of the Saudi economy and the creation of a foothold for the tire industry within the Kingdom.",
+    "contactUs": "Contact Us",
+    "contactUsText": "We are pleased to hear from you and we will answer all your inquiries through our technical support team and customer services. Please feel free to contact us through the website and the following social media numbers and platforms",
+    "ourServices" : "Why Us",
+    "ourServicesText" : "In Sandstone, we use the best international industries in tire manufacturing, we equipped an integrated production line that can produce a large quantity that meets the need of all equipment and appliances on the target market. "
+
+  },
+  "contactUs": {
+    "title": " We are glad to hear from you.",
+    "title2": "We are pleased to hear from you and we will answer all your inquiries through our technical support team and customer services. Please feel free to contact us through the website and the following social media numbers and platforms: ",
+    "email": "E-mail:",
+    "media": "Communication platforms:",
+    "name": "write your full name",
+    "phone": "phone number",
+    "company": "company name",
+    "quantity": "please choose the quantity",
+    "notes": "Write your notes",
+    "sendBtn": "send your order"
+  }
+}
